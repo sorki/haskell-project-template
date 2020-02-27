@@ -6,5 +6,4 @@ fi
 sed -i "s~@project@~$1~g" project.cabal
 sed -i "s~@project@~$1~g" default.nix
 mv project.cabal $1.cabal
-mv project.nix $1.nix
 rm new
