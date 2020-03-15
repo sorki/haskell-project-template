@@ -1,2 +1,2 @@
-{ nixpkgs ? import <nixpkgs> {}, compiler ? "ghc881" }:
+{ nixpkgs ? import <nixpkgs> {}, compiler ? "ghc882" }:
 nixpkgs.haskell.packages.${compiler}.callCabal2nix "@project@" ./. { }
