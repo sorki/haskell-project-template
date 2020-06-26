@@ -1,12 +1,17 @@
-haskell-template
-================
+# haskell-template
 
 Encode and decode [Something](https://example.org)
 
 Copy and use `./new PROJNAME` to rename stuff.
 
-Usage
------
+[Relative link](app/Main.hs).
+
+## Section
+
+* Bullet
+* list
+
+## Usage
 
 ```haskell
 import qualified Data.Lib as C
