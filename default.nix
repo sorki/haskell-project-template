@@ -1,2 +1,5 @@
-{ nixpkgs ? import <nixpkgs> {}, compiler ? "ghc8101" }:
-nixpkgs.haskell.packages.${compiler}.callCabal2nix "@project@" ./. { }
+{ pkgs ? import <nixpkgs> {} }:
+let
+  src = pkgs.nix-gitignore.gitignoreSource [ ] ./.;
+in
+  pkgs.haskellPackages.callCabal2nix "@project@" ./. { }
