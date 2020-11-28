@@ -1,6 +1,7 @@
 
 if [ $# != 1 ]; then
   echo "Usage: new PROJNAME"
+  exit 1
 fi
 
 sed -i "s~@project@~$1~g" project.cabal
