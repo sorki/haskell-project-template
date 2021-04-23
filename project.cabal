@@ -3,7 +3,7 @@ version:             0.1.0.0
 synopsis:            Example project
 -- description:         Something a bit longer
 homepage:            https://github.com/sorki/@project@
-license:             BSD3
+license:             BSD-3-Clause
 license-file:        LICENSE
 author:              Richard Marko
 maintainer:          srk@48.io
