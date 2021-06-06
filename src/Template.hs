@@ -1,3 +1,3 @@
 module Template where
 
-test = 42
+test = 1337
