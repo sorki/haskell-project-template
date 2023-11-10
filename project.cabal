@@ -8,7 +8,7 @@ license:             BSD-3-Clause
 license-file:        LICENSE
 author:              Richard Marko
 maintainer:          srk@48.io
-copyright:           2022 Richard Marko
+copyright:           2023 Richard Marko
 -- category:            Web
 build-type:          Simple
 
