@@ -6,5 +6,6 @@ fi
 
 sed -i "s~@project@~$1~g" project.cabal
 sed -i "s~@project@~$1~g" default.nix
+sed -i "s~haskell-project-template~$1~g" README.md
 mv project.cabal $1.cabal
 rm new
