@@ -10,4 +10,4 @@ echo "regenerating .github/workflows/ci.yaml..."
 
 mkdir -p .github/workflows/ci.yaml
 which dhall-to-yaml-ng || cabal install dhall-yaml
-dhall-to-yaml-ng --generated-comment --file ci.dhall > ci.yaml
+dhall-to-yaml-ng --generated-comment --file ci.dhall > .github/workflows/ci.yaml
