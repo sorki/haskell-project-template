@@ -1,4 +1,8 @@
-# haskell-template
+# haskell-project-template
+
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sorki/haskell-project-template/ci.yaml?branch=main)](https://github.com/sorki/haskell-project-template/actions/workflows/ci.yaml)
+[![Hackage version](https://img.shields.io/hackage/v/haskell-project-template.svg?color=success)](https://hackage.haskell.org/package/haskell-project-template)
+[![Dependencies](https://img.shields.io/hackage-deps/v/haskell-project-template?label=Dependencies)](https://packdeps.haskellers.com/feed?needle=haskell-project-template)
 
 Encode and decode [Something](https://example.org)
 
