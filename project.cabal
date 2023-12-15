@@ -9,7 +9,7 @@ license-file:        LICENSE
 author:              Richard Marko
 maintainer:          srk@48.io
 copyright:           2023 Richard Marko
--- category:            Web
+-- category:            Embedded
 build-type:          Simple
 
 extra-source-files:
