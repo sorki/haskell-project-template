@@ -6,9 +6,9 @@ synopsis:            Example project
 homepage:            https://github.com/sorki/@project@
 license:             BSD-3-Clause
 license-file:        LICENSE
-author:              Richard Marko
+author:              sorki
 maintainer:          srk@48.io
-copyright:           2023 Richard Marko
+copyright:           2023 sorki
 -- category:            Embedded
 build-type:          Simple
 
